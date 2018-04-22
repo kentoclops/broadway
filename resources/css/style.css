@@ -5,24 +5,36 @@ body {
 }
 
 .cta {
-  color: aquamarine;
-  font-size: 16px;
+  color: white;
+  font-size: 18px;
 }
 
 h1 {
-  font-size: 50px;
-  font-weight: normal;
+  font-size: 70px;
+  font-weight: bold;
 }
 
 h2 {
-  font-size: 42px;
+  font-size: 32px;
+  font-weight: bold;
+  color: dimgray;
+}
+
+h3 {
+  font-size: 18px;
+  color: white;
 }
 
 p {
-  font-size: 21px;
-  color: gray;
+  font-size: 18px;
+  color: dimgray;
 }
 
 .footer {
   text-align: right;
 }
+
+#main-banner {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+  background-position: center;
+  background-size: cover;
