@@ -1,7 +1,7 @@
 body {
   text-align: center;
   font-family: "Helvetica", sans-serif;
-  color: white;
+
 }
 
 .cta {
@@ -12,29 +12,42 @@ body {
 h1 {
   font-size: 70px;
   font-weight: bold;
+  color: white;
 }
 
 h2 {
   font-size: 32px;
   font-weight: bold;
-  color: dimgray;
 }
 
 h3 {
   font-size: 18px;
-  color: white;
 }
 
 p {
   font-size: 18px;
-  color: dimgray;
 }
 
 .footer {
-  text-align: right;
+  text-align: left;
+  color: white;
+  background-color: dimgrey;
+  font-size: 11px;
+}
+
+.info {
+  font-size: 14px;
 }
 
 #main-banner {
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
   background-position: center;
   background-size: cover;
+}
+
+#about {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
